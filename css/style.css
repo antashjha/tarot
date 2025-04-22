@@ -1,0 +1,269 @@
+:root {
+  --card-width: 200px;
+  --card-height: 320px;
+  --card-overlap: 180px;
+  --primary: #ff6b6b;
+  --secondary: #ffa3a3;
+  --accent: #ffcccb;
+  --text: #3a3a3a;
+  --light: #fff9f9;
+}
+
+body {
+  font-family: 'Cinzel Decorative', cursive;
+  background: linear-gradient(135deg, var(--primary), var(--secondary), var(--accent));
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+/* Hearts background */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+      radial-gradient(circle, var(--light) 1px, transparent 1px),
+      radial-gradient(circle, var(--light) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: 0 0, 25px 25px;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.heart-welcome {
+  position: absolute;
+  top: 20%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  animation: pulse 2s infinite;
+}
+
+.heart-welcome::before {
+  content: "❤";
+  position: absolute;
+  font-size: 300px;
+  color: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+}
+
+.heart-message {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin-top: 400px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.card-stack {
+  display: flex;
+  height: var(--card-height);
+  margin: 0 auto;
+  position: relative;
+  justify-content: center;
+  width: calc(var(--card-width) + (19 * 20px));
+}
+
+.tarot-card {
+  width: var(--card-width);
+  height: var(--card-height);
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  position: absolute;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(255,107,107,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.tarot-card::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.tarot-card .symbol {
+  font-size: 3rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tarot-card .title {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-top: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tarot-card.selected {
+  transform: translateY(-30px) translateX(0);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  z-index: 100;
+}
+
+.counter {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* Reading page styles */
+.reading-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.selected-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.reading-card {
+  width: 150px;
+  height: 240px;
+  background: linear-gradient(145deg, #f8f8f8, #ffffff);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
+  color: #5a3a3a;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.reading-result {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: none;
+  backdrop-filter: blur(5px);
+}
+
+.personalized-message {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  backdrop-filter: blur(5px);
+}
+
+.btn-back {
+  background: white;
+  color: var(--primary);
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.btn-back:hover {
+  background: var(--primary);
+  color: white;
+  transform: scale(1.05);
+}
+
+.music-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px solid white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  color: white;
+  font-size: 20px;
+}
+
+.music-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  :root {
+      --card-width: 150px;
+      --card-height: 240px;
+  }
+  
+  h1 {
+      font-size: 2rem;
+  }
+  
+  .container {
+      margin-top: 300px;
+  }
+  
+  .heart-welcome {
+      top: 10%;
+  }
+}

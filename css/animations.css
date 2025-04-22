@@ -1,0 +1,33 @@
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+@keyframes cardDraw {
+    0% { transform: translateY(0) rotate(0deg); }
+    100% { transform: translateY(-100px) rotate(5deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.card-reveal {
+    animation: cardDraw 0.5s forwards;
+}
+
+.result-show {
+    animation: fadeIn 1s forwards;
+}
+
+.tarot-card:hover .card-symbol {
+    animation: float 2s infinite;
+}

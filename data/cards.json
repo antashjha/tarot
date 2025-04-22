@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "title": "The Lovers",
+        "symbol": "💑",
+        "message": "Before stars even dreamed of shining, this bond was written.Your paths may diverge, yet your hearts always return.Love like this isn’t loud; it whispers in glances, laughter, and quiet understanding.In a world of endless choices, you are each other’s forever yes.",
+        "category": "love"
+    },
+    {
+        "id": 2,
+        "title": "Cupid's Arrow",
+        "symbol": "🏹",
+        "message": "When Cupid’s arrow strikes, it’s instant.No doubts, no delays — just undeniable attraction.You’ll know, and there’s no turning back.",
+        "category": "passion"
+    },
+    {
+        "id": 3,
+        "title": "Eternal Flame",
+        "symbol": "🔥",
+        "message": "Some connections never fade.Even when the world changes, this flame stays strong — constant, unwavering, and burning bright.It’s the kind of love that endures through everything.",
+        "category": "passion"
+    },
+    {
+        "id": 4,
+        "title": "Soulmate",
+        "symbol": "💞",
+        "message": "You’ve found the one who truly sees you.No pretenses, no games — just an undeniable connection that feels like home.This is more than love; it’s a deep, unspoken understanding.",
+        "category": "destiny"
+    },
+    {
+        "id": 5,
+        "title": "Moonlit Kiss",
+        "symbol": "🌙",
+        "message": "Under the moon’s glow, secrets come alive.A quiet bond, full of mystery and untold stories.It’s the kind of connection that thrives in the silence and the dark.",
+        "category": "magic"
+    },
+    {
+        "id": 6,
+        "title": "Heart's Desire",
+        "symbol": "💖",
+        "message": "There’s something your heart aches for — a pull that you can’t explain but can’t ignore. It’s not just a dream, it’s the deepest part of you calling for something real, something meant to be. No matter where life takes you, this desire will always lead you back to what you truly need.",
+        "category": "destiny"
+    },
+    {
+        "id": 7,
+        "title": "Twin Flames",
+        "symbol": "✨",
+        "message": "A powerful spiritual connection is awakening in your love life.This is no ordinary bond — it’s the merging of two souls destined to find each other. The connection is intense, transformative, and beyond anything you’ve experienced.",
+        "category": "destiny"
+    },
+    {
+        "id": 8,
+        "title": "Sacred Union",
+        "symbol": "⚭",
+        "message": "Two souls, bound by destiny, coming together in perfect harmony.This is more than love — it’s a deep, sacred bond that transcends time and space. When you unite, it’s a union of hearts, minds, and spirits.",
+        "category": "love"
+    },
+    {
+        "id": 9,
+        "title": "Rose Petals",
+        "symbol": "🌹",
+        "message": "Romance will soon blossom in your life, gentle and beautiful, like petals unfolding with every passing moment.This is the start of something tender, where love will grow softly but deeply.",
+        "category": "love"
+    },
+    {
+        "id": 10,
+        "title": "Love Letter",
+        "symbol": "💌",
+        "message": "Words of affection will soon touch your heart in ways you never expected.A heartfelt message is coming your way, one that will remind you of the deep love that surrounds you.",
+        "category": "love"
+    },
+    {
+        "id": 11,
+        "title": "Dancing Hearts",
+        "symbol": "💃",
+        "message": "Your hearts will soon dance together in perfect rhythm.The connection between you is electric, full of joy and light, where love flows freely and effortlessly.",
+        "category": "joy"
+    },
+    {
+        "id": 12,
+        "title": "Golden Ring",
+        "symbol": "💍",
+        "message": "A bond of lasting commitment is forming in your life.This is a connection that promises stability, trust, and eternal devotion. The golden ring symbolizes an unbreakable promise that will endure through time.",
+        "category": "commitment"
+    },
+    {
+        "id": 13,
+        "title": "Starry Night",
+        "symbol": "🌠",
+        "message": "Under the vast expanse of the night sky, your love will shine brightly.The connection you share is as endless as the stars, full of wonder, mystery, and endless possibilities.",
+        "category": "destiny"
+    },
+    {
+        "id": 14,
+        "title": "Sweet Embrace",
+        "symbol": "🤗",
+        "message": "Soon, you’ll find yourself wrapped in a warm embrace that feels like home.This connection brings comfort, safety, and a deep sense of belonging — where love’s gentle touch is always close.",
+        "category": "comfort"
+    },
+    {
+        "id": 15,
+        "title": "Secret Admirer",
+        "symbol": "🕵️",
+        "message": "Someone is quietly admiring you from afar, their feelings growing with each passing day.Though their love remains hidden, it’s genuine and true — a quiet admiration waiting for the right moment to be revealed.",
+        "category": "mystery"
+    },
+    {
+        "id": 16,
+        "title": "Harmony",
+        "symbol": "♡",
+        "message": "Balance and peace are coming into your love life.This connection is one of mutual understanding, where two hearts come together effortlessly, creating a bond that feels natural, calm, and whole.",
+        "category": "balance"
+    },
+    {
+        "id": 17,
+        "title": "Enchanted",
+        "symbol": "🧚",
+        "message": "Magic is weaving its way into your love life.This connection feels like a dream — full of wonder, mystery, and a sense of fate guiding you together. It’s love with an enchanting touch that captivates the heart.",
+        "category": "magic"
+    },
+    {
+        "id": 18,
+        "title": "Promise",
+        "symbol": "🤝",
+        "message": "A promise is being made in your love life, one that speaks of loyalty, commitment, and devotion.This is a bond built on trust, where the words spoken will be kept, and the heart's intentions will be honored.",
+        "category": "commitment"
+    },
+    {
+        "id": 19,
+        "title": "Bliss",
+        "symbol": "😊",
+        "message": "Joy and contentment are flowing into your love life.This connection brings a deep sense of peace, happiness, and fulfillment — a love that feels effortless and perfectly in tune with your heart.",
+        "category": "joy"
+    },
+    {
+        "id": 20,
+        "title": "Destiny",
+        "symbol": "⚯",
+        "message": "Your love life is being guided by forces greater than you realize.This connection isn’t by chance — it’s destiny unfolding, pulling you toward a love that was meant to be.",
+        "category": "destiny"
+    }
+]
